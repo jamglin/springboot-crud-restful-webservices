@@ -27,7 +27,7 @@ public class JuserController {
 	//get all users
 	@GetMapping
 	public List<Juser> getAllUsers(){
-		return this.juserRepository.findAll();
+		return this.juserRepository.findAll(); //all users
 	}
 	
 	//get user by Id
